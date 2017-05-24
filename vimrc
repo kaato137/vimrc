@@ -33,3 +33,6 @@ nnoremap E $
 
 nnoremap $ <nop>
 nnoremap ^ <nop>
+
+nmap <S-END> <END>a
+nmap <S-HOME> <HOME>i
