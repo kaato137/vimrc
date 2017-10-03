@@ -9,7 +9,12 @@ set shiftwidth=4
 set expandtab
 
 syntax enable
+
+set termguicolors
+
 set number
+
+set mouse=a
 
 set wildmenu
 
@@ -27,12 +32,3 @@ if bufwinnr(1)
   map = <C-W>+
 endif
 
-" Remap
-nnoremap B ^
-nnoremap E $
-
-nnoremap $ <nop>
-nnoremap ^ <nop>
-
-nmap <S-END> <END>a
-nmap <S-HOME> <HOME>i
